@@ -1,2 +1,5 @@
 # meshfox state: variable caches, run history, temp files, environments
 .meshfox/
+
+# local draft of a tool that is not started yet
+blur-faces/
