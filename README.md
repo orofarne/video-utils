@@ -26,3 +26,10 @@ Turns a Telegram video message into a tidy vertical video: a smooth-edged circle
 [subtitles/README.canvas.md](./subtitles/README.canvas.md)
 
 Transcribes a video locally with Whisper, optionally translates the subtitles with your coding agent, lets you edit them, and burns them in.
+
+## blur-plates
+<!-- meshfox:node id="blur-plates" type="file" -->
+
+[blur-plates/README.canvas.md](./blur-plates/README.canvas.md)
+
+Finds car licence plates in a video (a small YOLOv9 detector on ONNX Runtime, CoreML/CUDA when available) and blurs, pixelates or blacks them out, with a margin and a few frames of look-ahead so a half-visible plate is not missed; an `outline` mode previews what is found.
